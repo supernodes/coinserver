@@ -37,8 +37,9 @@ sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb
 sudo apt-get install libgmp3-dev libmpfr-dev
 
 #6coind
-make -f ${SRC}/6coin/clean makefile.unix 
-make -f ${SRC}/6coin/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/6coin
+make -f makefile.unix 
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #alphacoin
 make -f ${SRC}/alphacoin/clean makefile.unix 
