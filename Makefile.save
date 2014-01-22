@@ -1,0 +1,18 @@
+        $(B1) setgenerate true 16
+        $(B2) setgenerate true 16
+        $(B3) setgenerate true 16
+        $(B4) setgenerate true 16
+        $(B5) setgenerate true 16
+        $(B6) setgenerate true 16
+        $(B7) setgenerate true 16
+        $(B8) setgenerate true 16
+        $(B9) setgenerate true 16# this wil be the starting point of it all
+
+BITCOIND=coins/bitcoin/src/bitcoind
+LITECOIND=coins/litecoin/src/litecoind
+DOGECOIND=coins/dogecoin/src/dogecoind
+FEATHERCOIND=coins/feathercoin/src/feathercoind
+ROYALCOIND=coins/royalcoin/src/royalcoind
+HASHCOIND=coins/hashcoin/src/hashcoind
+
+
