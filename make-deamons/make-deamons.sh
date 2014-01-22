@@ -42,52 +42,64 @@ make -f makefile.unix
 make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #alphacoin
-make -f ${SRC}/alphacoin/clean makefile.unix 
-make -f ${SRC}/alphacoin/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/alphacoin/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #AmericanCoin
-make clean -f ${SRC}/AmericanCoin/src/makefile.unix 
-make -f ${SRC}/AmericanCoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/AmericanCoin/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #BBQCoin
-make clean -f ${SRC}/BBQCoin/src/makefile.unix 
-make -f ${SRC}/BBQCoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/BBCCoin/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #CGB
-make clean -f ${SRC}/CGB/src/makefile.unix 
-make -f ${SRC}/CGB/src/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/CGB/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #CHNCoin
-make clean -f ${SRC}/CHNCoin/src/makefile.unix 
-make -f ${SRC}/CHNCoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/CHNCoin/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #digitalcoin
-make clean -f ${SRC}/digitalcoin/src/makefile.unix 
-make -f ${SRC}/digitalcoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/digitalcoin/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #dogecoin
-make clean -f ${SRC}/dogecoin/src/makefile.unix 
-make -f ${SRC}/dogecoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/dogecoin/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #feathercoin
-make clean -f ${SRC}/feathercoin/src/makefile.unix 
-make -f ${SRC}/feathercoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/feathercoin/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #freicoin
-make clean -f ${SRC}/freicoin/src/makefile.unix 
-make -f ${SRC}/freicoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/freicoin/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #hashcoin
-make clean -f ${SRC}/hashcoin/src/makefile.unix 
-make -f ${SRC}/hashcoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/hashcoin/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #litecoin
-make clean -f ${SRC}/litecoin/src/makefile.unix 
-make -f ${SRC}/litecoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/litecoin/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #royalcoin
-make clean -f ${SRC}/royalcoin/src/makefile.unix 
-make -f ${SRC}/royalcoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
+cd ${SRC}/royalcoin/src
+make -f makefile.unix
+make -f makefile.unix USE_UPNP=- USE_IPV6=1
 
 #bitcoin
 cd ${SRC}/bitcoin
