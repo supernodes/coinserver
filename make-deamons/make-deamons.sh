@@ -38,60 +38,60 @@ sudo apt-get install libgmp3-dev libmpfr-dev
 
 #6coind
 make -f ${SRC}/6coin/clean makefile.unix 
-make -f ${SRC}/src-coins/6coin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/6coin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #alphacoin
-make -f ${SRC}/src-coins/alphacoin/clean makefile.unix 
-make -f ${SRC}/src-coins/alphacoin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/alphacoin/clean makefile.unix 
+make -f ${SRC}/alphacoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #AmericanCoin
-make -f ${SRC}/src-coins/AmericanCoin/clean makefile.unix 
-make -f ${SRC}/src-coins/AmericanCoin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/AmericanCoin/clean makefile.unix 
+make -f ${SRC}/AmericanCoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #BBQCoin
-make -f ${SRC}/src-coins/BBQCoin/clean makefile.unix 
-make -f ${SRC}/src-coins/BBQCoin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/BBQCoin/clean makefile.unix 
+make -f ${SRC}/BBQCoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #CGB
-make -f ${SRC}/src-coins/CGB/clean makefile.unix 
-make -f ${SRC}/src-coins/CGB/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/CGB/clean makefile.unix 
+make -f ${SRC}/CGB/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #CHNCoin
-make -f ${SRC}/src-coins/CHNCoin/clean makefile.unix 
-make -f ${SRC}/src-coins/CHNCoin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/CHNCoin/clean makefile.unix 
+make -f ${SRC}/CHNCoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #digitalcoin
-make -f ${SRC}/src-coins/digitalcoin/clean makefile.unix 
-make -f ${SRC}/src-coins/digitalcoin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/digitalcoin/clean makefile.unix 
+make -f ${SRC}/digitalcoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #dogecoin
-make -f ${SRC}/src-coins/dogecoin/clean makefile.unix 
-make -f ${SRC}/src-coins/dogecoin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/dogecoin/clean makefile.unix 
+make -f ${SRC}/dogecoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #feathercoin
-make -f ${SRC}/src-coins/feathercoin/clean makefile.unix 
-make -f ${SRC}/src-coins/feathercoin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/feathercoin/clean makefile.unix 
+make -f ${SRC}/feathercoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #freicoin
-make -f ${SRC}/src-coins/freicoin/clean makefile.unix 
-make -f ${SRC}/src-coins/freicoin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/freicoin/clean makefile.unix 
+make -f ${SRC}/freicoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #hashcoin
-make -f ${SRC}/src-coins/hashcoin/clean makefile.unix 
-make -f ${SRC}/src-coins/hashcoin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/hashcoin/clean makefile.unix 
+make -f ${SRC}/hashcoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #litecoin
-make -f ${SRC}/src-coins/litecoin/clean makefile.unix 
-make -f ${SRC}/src-coins/litecoin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/litecoin/clean makefile.unix 
+make -f ${SRC}/litecoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #royalcoin
-make -f ${SRC}/src-coins/royalcoin/clean makefile.unix 
-make -f ${SRC}/src-coins/royalcoin/makefile.unix USE_UPNP=- USE_IPV6=1
+make -f ${SRC}/royalcoin/clean makefile.unix 
+make -f ${SRC}/royalcoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #bitcoin
 cd ${SRC}/bitcoin
-./autogen.sh
-./configure
+sh autogen.sh
+sh configure
 make
 cd ..
 
