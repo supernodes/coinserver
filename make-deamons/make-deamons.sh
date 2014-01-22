@@ -45,47 +45,47 @@ make -f ${SRC}/alphacoin/clean makefile.unix
 make -f ${SRC}/alphacoin/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #AmericanCoin
-make -f ${SRC}/AmericanCoin/src/clean makefile.unix 
+make clean -f ${SRC}/AmericanCoin/src/makefile.unix 
 make -f ${SRC}/AmericanCoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #BBQCoin
-make -f ${SRC}/BBQCoin/src/clean makefile.unix 
+make clean -f ${SRC}/BBQCoin/src/makefile.unix 
 make -f ${SRC}/BBQCoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #CGB
-make -f ${SRC}/CGB/src/clean makefile.unix 
+make clean -f ${SRC}/CGB/src/makefile.unix 
 make -f ${SRC}/CGB/src/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #CHNCoin
-make -f ${SRC}/CHNCoin/src/clean makefile.unix 
+make clean -f ${SRC}/CHNCoin/src/makefile.unix 
 make -f ${SRC}/CHNCoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #digitalcoin
-make -f ${SRC}/digitalcoin/src/clean makefile.unix 
+make clean -f ${SRC}/digitalcoin/src/makefile.unix 
 make -f ${SRC}/digitalcoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #dogecoin
-make -f ${SRC}/dogecoin/src/clean makefile.unix 
+make clean -f ${SRC}/dogecoin/src/makefile.unix 
 make -f ${SRC}/dogecoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #feathercoin
-make -f ${SRC}/feathercoin/src/clean makefile.unix 
+make clean -f ${SRC}/feathercoin/src/makefile.unix 
 make -f ${SRC}/feathercoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #freicoin
-make -f ${SRC}/freicoin/src/clean makefile.unix 
+make clean -f ${SRC}/freicoin/src/makefile.unix 
 make -f ${SRC}/freicoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #hashcoin
-make -f ${SRC}/hashcoin/src/clean makefile.unix 
+make clean -f ${SRC}/hashcoin/src/makefile.unix 
 make -f ${SRC}/hashcoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #litecoin
-make -f ${SRC}/litecoin/src/clean makefile.unix 
+make clean -f ${SRC}/litecoin/src/makefile.unix 
 make -f ${SRC}/litecoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #royalcoin
-make -f ${SRC}/royalcoin/src/clean makefile.unix 
+make clean -f ${SRC}/royalcoin/src/makefile.unix 
 make -f ${SRC}/royalcoin/src/makefile.unix USE_UPNP=- USE_IPV6=1
 
 #bitcoin
