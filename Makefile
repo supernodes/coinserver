@@ -84,3 +84,11 @@ stop:
         $(B4) stop
         $(B5) stop
         $(B6) stop
+
+custombuild:
+wget -O custombuild.tar.gz http://files.directadmin.com/services/custombuild/2.0/custombuild.tar.gz
+tar xvzf custombuild.tar.gz
+rm *.gz
+cd custombuild
+./build
+
