@@ -1,4 +1,4 @@
-SuperNode / CoinServer Project - SNCP
+SuperNode / CoinServer Project - SNCSP
 
 
 One server for all Coins (lets see how many coins a server can take)
